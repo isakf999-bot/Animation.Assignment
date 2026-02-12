@@ -1,0 +1,52 @@
+.Nav-bar {
+    max-width: 1400px;
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.Nav-item {
+    display: flex;
+
+}
+
+.container {
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.Card-1, .Card-2, .Card-3, .Card-4 {
+    max-width: 200px;
+    height: 150px;
+    width: 100%;
+    background-color: blue;
+    margin: 20px;
+}
+
+.Card-btn {
+    font-weight: bold;  
+}
+
+.Card-btn:hover {
+    background-color: blueviolet;
+    transition: all 0.9s ease-in-out;
+}
+
+
+
+

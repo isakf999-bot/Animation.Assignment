@@ -1,0 +1,13 @@
+.Card-btn:hover {
+    transition: all 0.9s ease-in-out;
+}
+
+.image {
+    object-fit: cover;
+    animation: imgZoom 3.5s ease infinite;
+}
+
+@keyframes imgZoom {
+    from {transform: scale(1) rotate(0deg);}
+    to {transform: scale(1)rotate(15deg);}
+}
