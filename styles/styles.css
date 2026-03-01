@@ -44,8 +44,10 @@ li, a {
 
 .Card-btn:hover {
     background-color: blueviolet;
-    transition: all 0.9s ease-in-out;
+    scale: 2;
 }
+
+
 
 
 
