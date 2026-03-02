@@ -1,0 +1,35 @@
+.Card-btn:hover {
+    transition: all 0.9s ease-in-out;
+}
+
+.image {
+    object-fit: cover;
+    animation: imgZoom 3.5s ease infinite;
+}
+
+
+
+
+@keyframes imgZoom {
+    from {transform: scale(1) rotate(0deg);}
+    to {transform: scale(1)rotate(15deg);}
+}
+
+@keyframes spin {
+
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+
+    
+    }
+ .Card-1, .Card-2, .Card-3, .Card-4 {
+    animation: spin 3s ease infinite;
+ }
